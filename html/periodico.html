@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi periódico</title>
+
+    <!--UNIVERSAL, Por ELEMENTO HTML, Por CLASE, Por ID, Por ATRIBUTO, Por PSEUDO CLASES-->
+    <style>
+        *{
+            text-emphasis-color: red;
+        }
+
+        h1{
+            color: blue;
+            text-align: center;
+        }
+
+       .noticiasVariadas{
+        color: blueviolet;
+        text-align: end;
+       }
+
+       #miIdFooter{
+        color: orangered;
+        text-align: right;
+       }
+
+       img[alt="avion"]{
+        height: 500px;
+       }
+
+       .noticiasVariadas:hover{
+        color: black;
+       }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Mi periódico</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Última hora</li>
+            <li>Notimundo</li>
+            <li class="noticiasVariadas">Deportes</li>
+            <li class="noticiasVariadas">Espectáculo</li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Avión histórico</h2>
+            <time data-="15 Nov 2023">Publicado el 15 Nov 2023</time>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Air_india_b747-400_vt-esn_arp.jpg/300px-Air_india_b747-400_vt-esn_arp.jpg" alt="avion">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minus aliquam, eveniet minima eius et nobis rem ab vel debitis. Tempore, quaerat eius voluptas expedita velit sit rerum quidem delectus distinctio illum quibusdam quas, corporis reprehenderit atque. Accusantium possimus aperiam nostrum architecto corrupti autem hic doloribus cupiditate fugit ut. Sunt ullam facilis sit pariatur. Voluptatem deleniti molestias nulla a reprehenderit, deserunt, aliquid nobis incidunt et similique illo quis maxime est voluptatum ab laborum nemo laboriosam autem ipsam consequatur dolore. Atque, odit. Reprehenderit molestiae nulla, beatae quibusdam, cupiditate natus, praesentium numquam minus quo commodi aut officia fugiat dolorum exercitationem alias. Distinctio!</p>
+            <footer id="miIdFooter"> Likes (2)</footer>
+        </article>
+    </section>
+
+    <aside>
+        <blockquote cite="https://www.radio-ecuador.org/radio-republica-fm"> 
+            Radio República, escúchala!
+            <a href="https://www.radio-ecuador.org/radio-republica-fm">click aquí!</a>
+        </blockquote>
+    </aside>
+
+    <footer style="text-align: center;">
+        Derechos Reservados (c) 2023
+    </footer>
+</body>
+</html>
